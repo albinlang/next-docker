@@ -9,6 +9,7 @@ services:
     command: yarn dev
     environment:
       - NODE_ENV=development
+      - WATCHPACK_POLLING=true
     volumes:
       - .:/app
       - /app/node_modules
